@@ -10,7 +10,7 @@ const Skills = () => {
     >
       <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px] uppercase">
+          <p className="text-sm tracking-[4px] uppercase">
             Features
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Design Skill</h2>
@@ -86,7 +86,7 @@ const Skills = () => {
 
       <div className="w-full lgl:w-1/2">
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px] uppercase">
+          <p className="text-sm tracking-[4px] uppercase">
             Features
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>

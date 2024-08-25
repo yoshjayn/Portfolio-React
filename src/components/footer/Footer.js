@@ -1,12 +1,12 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import { winee_logo } from '../../assets/index';
 
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        <img className="w-32" src={winee_logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
             <FaFacebookF />
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
+        <h3 className="text-xl uppercase tracking-wider">
           Quick Link
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
@@ -57,7 +57,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
+        <h3 className="text-xl uppercase tracking-wider">
           RESOURCES
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
@@ -94,7 +94,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
+        <h3 className="text-xl uppercase tracking-wider">
           DEVELOPERS
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
@@ -134,4 +134,4 @@ const Footer = () => {
   );
 }
 
-export default Footer
+export default Footer;
