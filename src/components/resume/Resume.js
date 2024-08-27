@@ -26,7 +26,7 @@ const Resume = () => {
             }
             className={`${
               educationData
-                ? " rounded-lg"
+                ? "rounded-lg border-blue-600"
                 : "border-transparent"
             } resumeLi`}
           >
@@ -40,7 +40,7 @@ const Resume = () => {
               setAchievementData(false)
             }
             className={`${
-              skillData ? "rounded-lg" : "border-transparent"
+              skillData ? "rounded-lg border-blue-600" : "border-transparent"
             } resumeLi`}
           >
             Professional Skills
@@ -54,7 +54,7 @@ const Resume = () => {
             }
             className={`${
               experienceData
-                ? "rounded-lg"
+                ? "rounded-lg border-blue-600"
                 : "border-transparent"
             } resumeLi`}
           >
@@ -69,7 +69,7 @@ const Resume = () => {
             }
             className={`${
               achievementData
-                ? "rounded-lg"
+                ? "rounded-lg border-blue-600"
                 : "border-transparent"
             } resumeLi`}
           >
