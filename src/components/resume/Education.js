@@ -29,7 +29,7 @@ const Education = () => {
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard
-            title="Higher Secondary School Education"
+            title="Higher Secondary Schooling"
             subTitle="Shiva Shiksha Sadan (2016 - 2018)"
             result="76%"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."

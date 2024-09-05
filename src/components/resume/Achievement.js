@@ -43,7 +43,7 @@ const Achievement = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Leadership"
-            subTitle="NCC(2018-2021)"
+            subTitle="NCC (2018-2021)"
             result="Success"
             des="Served as a cadet in the National Cadet Corps, participating in various training programs and camps, and receiving accolades for discipline, leadership, and teamwork."
           />
