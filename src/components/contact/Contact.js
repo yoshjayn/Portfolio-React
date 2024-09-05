@@ -59,7 +59,7 @@ const Contact = () => {
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-blue-500 text-base tracking-wide animate-bounce">
                   {errMsg}
                 </p>
               )}
@@ -78,7 +78,7 @@ const Contact = () => {
                     value={username}
                     className={`${
                       errMsg === "Username is required!" &&
-                      "outline-designColor"
+                      "outline-blue-600"
                     } contactInput`}
                     type="text"
                   />
@@ -92,7 +92,7 @@ const Contact = () => {
                     value={phoneNumber}
                     className={`${
                       errMsg === "Phone number is required!" &&
-                      "outline-designColor"
+                      "outline-"
                     } contactInput`}
                     type="text"
                   />
@@ -107,7 +107,7 @@ const Contact = () => {
                   value={email}
                   className={`${
                     errMsg === "Please give your Email!" &&
-                    "outline-designColor"
+                    "outline-blue-600"
                   } contactInput`}
                   type="email"
                 />
@@ -121,7 +121,7 @@ const Contact = () => {
                   value={subject}
                   className={`${
                     errMsg === "Plese give your Subject!" &&
-                    "outline-designColor"
+                    "outline-blue-600"
                   } contactInput`}
                   type="text"
                 />
@@ -134,7 +134,7 @@ const Contact = () => {
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
                   className={`${
-                    errMsg === "Message is required!" && "outline-designColor"
+                    errMsg === "Message is required!" && "outline-blue-600"
                   } contactTextArea`}
                   cols="30"
                   rows="8"
@@ -143,13 +143,13 @@ const Contact = () => {
               <div className="w-full">
                 <button
                   onClick={handleSend}
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-blue-600 border-transparent"
                 >
                   Send Message
                 </button>
               </div>
               {errMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-blue-500 text-base tracking-wide animate-bounce">
                   {errMsg}
                 </p>
               )}

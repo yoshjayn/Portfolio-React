@@ -53,17 +53,17 @@ const Education = () => {
           />
           {/*  */}
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Mathematics Tutor"
+            subTitle="Local Coaching - (2021)"
+            result="Vidya Coaching"
+            des="Tutored +2 students for board exams, helping them improve their understanding of complex mathematical concepts and achieve higher grades."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Front-end Developer"
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>

@@ -22,14 +22,14 @@ const Achievement = () => {
             des="Earned a professional certification in React.js, demonstrating proficiency in building dynamic and responsive web applications using one of the most popular JavaScript libraries."
           />
           <ResumeCard
-            title="Developemer"
+            title="Software"
             subTitle="Developed a Netflix Clone"
             result="Success"
             des=" Successfully created a Netflix Clone from scratch, showcasing advanced skills in React.js, API integration, and responsive design, and garnering positive feedback from peers and mentors."
           />
           <ResumeCard
             title="Contributor"
-            subTitle="Contributor to Open-Source Projects"
+            subTitle="Open-Source Projects"
             result="Success"
             des="Actively contributed to several open-source projects, including bug fixes and feature enhancements, gaining recognition in the developer community and expanding my technical expertise."
           />
@@ -42,16 +42,16 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Coding Challenge"
-            subTitle="Top Performer in Coding Challenges."
+            title="Leadership"
+            subTitle="NCC(2018-2021)"
             result="Success"
-            des="Consistently ranked in the top percentile of participants in coding challenges on platforms like LeetCode and HackerRank, demonstrating strong problem-solving abilities and coding proficiency."
+            des="Served as a cadet in the National Cadet Corps, participating in various training programs and camps, and receiving accolades for discipline, leadership, and teamwork."
           />
           <ResumeCard
-            title="Leadership"
-            subTitle="NGO Educational Programs"
+            title="Service"
+            subTitle="National Service Scheme"
             result="Success"
-            des="Played a key role in leading educational programs for underprivileged children through an NGO, designing and implementing a curriculum that has positively impacted the lives of many young learners."
+            des="Volunteered for the National Service Scheme, participating in community service activities, awareness campaigns, and social initiatives, and contributing to the welfare of society."
           />
           <ResumeCard
             title="Graduation"

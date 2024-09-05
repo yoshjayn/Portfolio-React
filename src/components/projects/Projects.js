@@ -19,7 +19,7 @@ const Projects = () => {
         <ProjectsCard
           title="VIDEO STREAMING CLONE"
           des=" Experience streaming like never before with my Netflix Clone – a fully responsive web app that replicates the sleek interface and seamless performance of the world's leading entertainment platform."
-          src={project1}  
+          src={project1} 
         />
         <ProjectsCard
           title="E-commerce Website"

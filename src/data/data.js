@@ -6,8 +6,9 @@ import { SiProgress, SiAntdesign } from "react-icons/si";
 export const featuresData = [
   {
     id: 1,
-    title: "Business Stratagy",
-    des: "Crafting data-driven strategies to align technology solutions with business goals, driving growth and competitive advantage.",
+    icon: <FaGlobe />,
+    title: "Hosting Websites",
+    des: "Designing and implementing responsive, user-friendly websites that combine aesthetics with functionality for an engaging online presence.",
   },
   {
     id: 2,
@@ -35,8 +36,7 @@ export const featuresData = [
   },
   {
     id: 6,
-    icon: <FaGlobe />,
-    title: "Hosting Websites",
-    des: "Designing and implementing responsive, user-friendly websites that combine aesthetics with functionality for an engaging online presence.",
+    title: "Business Stratagy",
+    des: "Crafting data-driven strategies to align technology solutions with business goals, driving growth and competitive advantage.",
   },
 ];

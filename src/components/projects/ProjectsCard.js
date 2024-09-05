@@ -19,12 +19,12 @@ const ProjectsCard = ({ title, des, src }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-blue-600 duration-300 cursor-pointer">
+              <a href="https://github.com/yoshjayn/NETFLIX-GPT" target="_blank" rel="noopener noreferrer" className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-blue-600 duration-300 cursor-pointer">
                 <BsGithub />
-              </span>
-              <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-blue-600 duration-300 cursor-pointer">
+              </a>
+              <a href="https://netflix-react-pink.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-blue-600 duration-300 cursor-pointer">
                 <FaGlobe />
-              </span>
+              </a>
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">

@@ -22,17 +22,17 @@ const Experience = () => {
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Mathematics Tutor"
+            subTitle="Local Coaching - (2021)"
+            result="Vidya Coaching"
+            des="Tutored +2 students for board exams, helping them improve their understanding of complex mathematical concepts and achieve higher grades."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Front-end Developer"
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
             des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
-          />
+          /> */}
         </div>
       </div>
       <div>
@@ -42,12 +42,12 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Squad Head"
+            subTitle="National Cadet Corps"
+            result="Grade A"
+            des="Trained junior cadets in drill, physical training, and discipline, leading to a 20% increase in overall performance and participation."
           />
-          <ResumeCard
+          {/* <ResumeCard
             title="Web Developer and Instructor"
             subTitle="SuperKing College (2010 - 2014)"
             result="CANADA"
@@ -58,7 +58,7 @@ const Experience = () => {
             subTitle="Kingstar Secondary School (2001 - 2010)"
             result="NEVADA"
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          />
+          /> */}
         </div>
       </div>
     </motion.div>
