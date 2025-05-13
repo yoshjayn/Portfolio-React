@@ -16,7 +16,7 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="AI Trainer & Annotator"
+            title="AI Model Annotator"
             subTitle="Remotasks (March - Present)"
             result="California"
             des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."

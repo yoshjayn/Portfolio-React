@@ -45,7 +45,7 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard
-            title="AI Trainer & Annotator"
+            title="AI Model Annotator"
             subTitle="Remotasks - (2024 - Present)"
             result="Remote"
             des="Freelanced to enhance the natural language processing of ChatGPT and Bard AI, significantly improving response accuracy and relevance."

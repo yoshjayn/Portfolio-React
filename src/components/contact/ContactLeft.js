@@ -19,7 +19,7 @@ const ContactLeft = () => {
         Let's connect! I'm open to new opportunities and collaborations. Reach out via email or LinkedIn for a chat.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">++++++</span>
+          Phone: <span className="text-lightText">8307860958</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">aswiniy68@gmail.com</span>
