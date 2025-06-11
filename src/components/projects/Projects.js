@@ -17,8 +17,8 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="Vistagram : Social Media WebApp"
-          des=" A Vite + React Instagram clone with Tailwind CSS. Focus: Context API for state, REST API integration, and learning through iterative builds."
+          title="Vistagram : Social"
+          des=" A Vite + React Instagram clone with Tailwind CSS. Focus: Context API for state, REST API integration, authentication, reusable components, and learning through iterative builds and real-world feature development."
           src={projectTwo}
           git="https://github.com/yoshjayn/Instagram-clone"
           live="https://instagram-clone-orcin-seven.vercel.app/"
