@@ -17,19 +17,25 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="Social Media WebApp"
-          des=" Vistagram : A Vite + React Instagram clone with Tailwind CSS. Focus: Context API for state, REST API integration, and learning through iterative builds."
+          title="Vistagram : Social Media WebApp"
+          des=" A Vite + React Instagram clone with Tailwind CSS. Focus: Context API for state, REST API integration, and learning through iterative builds."
           src={projectTwo}
+          git="https://github.com/yoshjayn/Instagram-clone"
+          live="https://instagram-clone-orcin-seven.vercel.app/"
         />
         <ProjectsCard
           title="VIDEO STREAMING CLONE"
           des=" Experience streaming like never before with my Netflix Clone – a fully responsive web app that replicates the sleek interface and seamless performance of the world's leading entertainment platform."
           src={project1} 
+          git="https://github.com/yoshjayn/Netflix-React"
+          live="https://netflix-react-pink.vercel.app/"
         />
         <ProjectsCard
           title="Weather App"
-          des=" This project focuses on fetching and displaying weather information for a specific location and handles various weather data points such as temperature, humidity, pressure, cloud cover, wind speed, and more,by parsing a JSON response from the API and displaying the relevant details"
+          des=" This project focuses on fetching and displaying weather information such as temperature, humidity, pressure, cloud cover, wind speed, and more,by parsing a JSON response from the API and displaying the relevant details"
           src={project3}
+          git="https://github.com/yoshjayn/-Task2--Weather-App"
+          live="https://task2-weather-app.vercel.app/"
         />
         
       </div>
