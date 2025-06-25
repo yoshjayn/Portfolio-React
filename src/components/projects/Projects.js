@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../layouts/Title'
 import { projectTwo, project1, project3  } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
+import ProjectCarousel from './ProjectCarousel';
 
 const Projects = () => {
   return (
@@ -16,7 +17,7 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Vistagram : Social"
           des=" A Vite + React Instagram clone with Tailwind CSS. Focus: Context API for state, REST API integration, authentication, reusable components, and learning through iterative builds and real-world feature development."
           src={projectTwo}
@@ -36,7 +37,8 @@ const Projects = () => {
           src={project3}
           git="https://github.com/yoshjayn/-Task2--Weather-App"
           live="https://task2-weather-app.vercel.app/"
-        />
+        /> */}
+        <ProjectCarousel />
         
       </div>
     </section>
