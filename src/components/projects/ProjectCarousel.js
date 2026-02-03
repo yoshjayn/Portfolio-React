@@ -65,18 +65,18 @@ const ProjectCarousel = () => {
             live="https://notes-canvas-puce.vercel.app/"
           />
           <ProjectsCard
-            title="Weather App"
-            des=" This project focuses on fetching and displaying weather information such as temperature, humidity, pressure, cloud cover, wind speed, and more,by parsing a JSON response from the API and displaying the relevant details"
-            src={projectTwo}
-            git="https://github.com/yoshjayn/-Task2--Weather-App"
-            live="https://task2-weather-app.vercel.app/"
-          />
-          <ProjectsCard
             title="VIDEO STREAMING CLONE"
             des=" Experience streaming like never before with my Netflix Clone – a fully responsive web app that replicates the sleek interface and seamless performance of the world's leading entertainment platform."
             src={project1}
             git="https://github.com/yoshjayn/Netflix-React"
             live="https://netflix-react-pink.vercel.app/"
+          />
+          <ProjectsCard
+            title="Weather App"
+            des=" This project focuses on fetching and displaying weather information such as temperature, humidity, pressure, cloud cover, wind speed, and more,by parsing a JSON response from the API and displaying the relevant details"
+            src={projectTwo}
+            git="https://github.com/yoshjayn/-Task2--Weather-App"
+            live="https://task2-weather-app.vercel.app/"
           />
           
         </Slider>
