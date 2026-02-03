@@ -1,5 +1,4 @@
-import React from 'react'
-import { bannerImg, yashbanner } from "../../assets/index";
+import { yashbanner } from "../../assets/index";
 
 const RightBanner = () => {
   return (

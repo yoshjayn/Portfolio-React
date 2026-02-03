@@ -1,7 +1,4 @@
-import React from 'react'
 import Title from '../layouts/Title'
-import { projectTwo, project1, project3  } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
 import ProjectCarousel from './ProjectCarousel';
 
 const Projects = () => {

@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { winee_logo } from '../../assets/index';
 import { navLinksdata } from '../../constants';
 
