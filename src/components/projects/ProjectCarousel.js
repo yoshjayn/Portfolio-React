@@ -55,26 +55,26 @@ const ProjectCarousel = () => {
             des=" A Vite + React Instagram clone with Tailwind CSS. Focus: Context API for state, REST API integration, authentication, reusable components, and learning through iterative builds and real-world feature development."
             src={projectTwo}
             git="https://github.com/yoshjayn/Instagram-clone"
-            live="https://instagram-clone-orcin-seven.vercel.app/"
+            live="https://instagram-clone-upup.vercel.app/"
           />
           <ProjectsCard
             title="NOTES APP"
             des="Stay organized with my Notes App – a clean, intuitive platform for creating, editing, and managing notes. Enjoy seamless syncing, search functionality, and a distraction-free interface for productivity."
             src={project3}
-            git="https://github.com/yoshjayn/Notes-App"
-            live="https://notes-app-react.vercel.app/"
+            git="https://github.com/yoshjayn/Notes-Canvas"
+            live="https://notes-canvas-puce.vercel.app/"
           />
           <ProjectsCard
             title="Weather App"
             des=" This project focuses on fetching and displaying weather information such as temperature, humidity, pressure, cloud cover, wind speed, and more,by parsing a JSON response from the API and displaying the relevant details"
-            src={project1}
+            src={projectTwo}
             git="https://github.com/yoshjayn/-Task2--Weather-App"
             live="https://task2-weather-app.vercel.app/"
           />
           <ProjectsCard
             title="VIDEO STREAMING CLONE"
             des=" Experience streaming like never before with my Netflix Clone – a fully responsive web app that replicates the sleek interface and seamless performance of the world's leading entertainment platform."
-            src={projectTwo}
+            src={project1}
             git="https://github.com/yoshjayn/Netflix-React"
             live="https://netflix-react-pink.vercel.app/"
           />
